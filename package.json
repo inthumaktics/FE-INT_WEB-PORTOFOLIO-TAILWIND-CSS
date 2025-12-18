@@ -1,0 +1,22 @@
+{
+  "name": "web-portofolio-tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss assets/css/tailwind.css -o public/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "^1.9.6"
+  },
+  "devDependencies": {
+    "postcss-cli": "^7.1.2"
+  }
+}
